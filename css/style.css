@@ -1,0 +1,600 @@
+body{
+    background-color: #000000;
+    font-family: 'CovesLight';
+    font-size: 20px;
+  }
+
+svg{
+  position: relative;
+}
+
+
+.FixedHeader{
+  position: fixed;
+  z-index: 99;
+}
+
+.footer{
+  fill: #BFBFBF;
+  font-size:17px;
+}
+
+
+.sources_footer:hover{
+  fill: white;
+  cursor: pointer;
+}
+
+.info_footer:hover{
+  fill:white;
+  cursor: pointer;
+}
+
+  @font-face {
+    font-family: 'CovesLight';
+    src: url("font/CovesLight.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "Coves-Bold";
+    src: url("font/CovesBold.otf") format("opentype");
+    
+  }
+
+  @font-face {
+    font-family: "Muli-SemiBold";
+    src: url("font/Muli-SemiBold.ttf") format("truetype");
+  }
+
+    @font-face {
+    font-family: "Muli-Medium";
+    src: url("font/Muli-Medium.ttf") format("truetype");
+    }
+
+  /* First Section Styling */
+	.st0{fill:#000000;}
+	.st1{fill:#FF003D;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#FF003D;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:12.0731,12.0731;}
+	.st6{font-family:'Muli-Medium';}
+	.st7{font-size:40px;}
+	.st8{enable-background:new    ;}
+	.st9{fill:#FF003D;}
+	.st10{fill:none;}
+	.st11{font-size:27px;}
+	.st12{fill:#EFEFEF;}
+
+	.st14{fill:none;}
+	.st15{font-family:'Muli-Medium';}
+  .st16{font-size:30px;}
+  
+
+  .st17{fill:#FFFFFF;}
+	.st18{fill:#000102;}
+  .st19{fill-rule:evenodd;clip-rule:evenodd;}
+
+  .st20{enable-background:new    ;}
+
+
+	.st103{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st104{fill:#FFFFFF;}
+
+  .st106{fill:none;}
+  .st107{font-size:13.7677px;}
+	.st108{fill:#333333;}
+  .st105{fill:none;stroke:#EC2044;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  .st111{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  .st109{font-size:12px;}
+  .st112{font-size:14px;}
+  .st113{font-size:16px;}
+  .st45{
+    fill:none;
+  }
+
+  .st100{fill:#565656;}
+  .st101{fill:#C1C1C1;}
+  .st102{font-family:'Muli-Medium';font-size:15px;}
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .blinkEffect{
+    animation: blink 3s ease-in-out infinite;
+  }
+
+
+  @keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-15px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes Opacity {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+}
+
+
+@keyframes Disappear {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.floatEffect{
+    transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.floatEffect2{
+  /* transform: translatey(0px); */
+  animation: float 6s ease-in-out infinite;
+}
+
+#info{
+  fill:#BFBFBF;
+}
+
+
+#info:hover{
+  fill: white;
+  cursor: pointer;
+}
+
+.speciesFactReveal{
+  opacity: 0;
+}
+
+.species{
+  opacity: 1;
+}
+  
+
+.hoverEvent{
+  opacity: 0;
+  fill:#FF003D;
+}
+
+.Cepha {
+  opacity: 0; }
+
+.Event{
+  opacity: 0;
+}
+
+.Eventt{
+  opacity: 0;
+}
+
+.ceph{
+  opacity: 0; }
+
+
+ /* Second Section Styling */
+  .textLabel{
+    visibility: hidden;
+    opacity: 0;
+    /* font-family:'MyriadPro-Regular'; */
+    font-family:"Muli-Medium";
+    font-size: 7px;
+    fill: white;
+  }
+
+  polygon:hover ~ .textLabel{
+    fill: white;
+    
+    
+    /* font-family:'MyriadPro-Regular'; */
+    visibility: visible;
+    font-size: 8px;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+  }
+
+  .graphBar:hover {
+    fill: url(#SVGID_549_);
+  }
+
+  /* 1 */
+  #agriculture:hover{
+    fill:#FF003D;
+  }
+
+  /* 2 */
+  #marine:hover {
+      fill: #FF003D;
+  }
+
+  /* 3 */
+  #co2:hover {
+      fill: #FF003D;
+  }
+
+  /* 4 */
+  #forest:hover {
+      fill: #FF003D;
+  }
+
+
+  /* 5 */
+  #mushroom:hover {
+      fill: #FF003D;
+  }
+
+  /* 6 */
+  #pelagic_fish:hover {
+      fill: #FF003D;
+  }
+
+  /* 7 */
+  #plastic:hover {
+      fill: #FF003D;
+  }
+
+  /* 8 */
+  #fresh_water_fish:hover {
+      fill: #FF003D;
+  }
+
+  /* 9 */
+  #flowering_plants:hover {
+      fill: #FF003D;
+  }
+
+  /* 10 */
+  #population:hover {
+      fill: #FF003D;
+  }
+
+  /* 11 */
+  #ocean_temperature:hover {
+      fill: #FF003D;
+  }
+
+
+  /* linear gradient fill of all graphs */
+  #allGraphs {
+    fill:url(#SVGID_549_);
+  }
+
+
+  /* ---------- SCROLL ANIMATION ON REVEAL CODE ----------*/
+#agriculture {
+    opacity: 0;
+    -webkit-transform: translateY(60px) scale(0.9);
+    -moz-transform: translateY(60px) scale(0.9);
+    -ms-transform: translateY(60px) scale(0.9);
+    -o-transform: translateY(60px) scale(0.9);
+    transform: translateY(60px) scale(0.9);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+
+  #agriculture.visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+
+  }
+
+  #marine {
+    opacity: 0;
+    -webkit-transform: translateY(60px) scale(0.9);
+    -moz-transform: translateY(60px) scale(0.9);
+    -ms-transform: translateY(60px) scale(0.9);
+    -o-transform: translateY(60px) scale(0.9);
+    transform: translateY(60px) scale(0.9);
+    -webkit-transition: all 1.3s ease-in-out;
+    -moz-transition: all 1.3s ease-in-out;
+    -ms-transition: all 1.3s ease-in-out;
+    -o-transition: all 1.3s ease-in-out;
+    transition: all 1.3s ease-in-out;
+  }
+
+  #marine.visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+
+  #co2 {
+    opacity: 0;
+    -webkit-transform: translateY(60px) scale(0.9);
+    -moz-transform: translateY(60px) scale(0.9);
+    -ms-transform: translateY(60px) scale(0.9);
+    -o-transform: translateY(60px) scale(0.9);
+    transform: translateY(60px) scale(0.9);
+    -webkit-transition: all 1.7s ease-in-out;
+    -moz-transition: all 1.7s ease-in-out;
+    -ms-transition: all 1.7s ease-in-out;
+    -o-transition: all 1.7s ease-in-out;
+    transition: all 1.7s ease-in-out;
+  }
+
+  #co2.visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+
+  #forest {
+    opacity: 0;
+    -webkit-transform: translateY(80px) scale(0.9);
+    -moz-transform: translateY(80px) scale(0.9);
+    -ms-transform: translateY(80px) scale(0.9);
+    -o-transform: translateY(80px) scale(0.9);
+    transform: translateY(80px) scale(0.9);
+    -webkit-transition: all 2.1s ease-in-out;
+    -moz-transition: all 2.1s ease-in-out;
+    -ms-transition: all 2.1s ease-in-out;
+    -o-transition: all 2.1s ease-in-out;
+    transition: all 2.1s ease-in-out;
+  }
+
+  #forest.visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+
+  #mushroom {
+    opacity: 0;
+    -webkit-transform: translateY(80px) scale(0.9);
+    -moz-transform: translateY(80px) scale(0.9);
+    -ms-transform: translateY(80px) scale(0.9);
+    -o-transform: translateY(80px) scale(0.9);
+    transform: translateY(80px) scale(0.9);
+    -webkit-transition: all 2.5s ease-in-out;
+    -moz-transition: all 2.5s ease-in-out;
+    -ms-transition: all 2.5s ease-in-out;
+    -o-transition: all 2.5s ease-in-out;
+    transition: all 2.5s ease-in-out;
+  }
+
+  #mushroom.visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+
+
+  #pelagic_fish {
+    opacity: 0;
+    -webkit-transform: translateY(130px) scale(0.9);
+    -moz-transform: translateY(130px) scale(0.9);
+    -ms-transform: translateY(130px) scale(0.9);
+    -o-transform: translateY(130px) scale(0.9);
+    transform: translateY(130px) scale(0.9);
+    -webkit-transition: all 1.2s ease-in-out;
+    -moz-transition: all 1.2s ease-in-out;
+    -ms-transition: all 1.2s ease-in-out;
+    -o-transition: all 1.2s ease-in-out;
+    transition: all 1.2s ease-in-out;
+  }
+
+  #pelagic_fish.visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transform: scale(1);
+  }
+
+
+  #plastic {
+    opacity: 0;
+    -webkit-transform: translateY(150px) scale(0.9);
+    -moz-transform: translateY(150px) scale(0.9);
+    -ms-transform: translateY(150px) scale(0.9);
+    -o-transform: translateY(150px) scale(0.9);
+    transform: translateY(150px) scale(0.9);
+    -webkit-transition: all 1.6s ease-in-out;
+    -moz-transition: all 1.6s ease-in-out;
+    -ms-transition: all 1.6s ease-in-out;
+    -o-transition: all 1.6s ease-in-out;
+    transition: all 1.6s ease-in-out;
+  }
+
+  #plastic.visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transform: scale(1);
+  }
+
+
+  #fresh_water_fish {
+    opacity: 0;
+    -webkit-transform: translateY(160px) scale(0.9);
+    -moz-transform: translateY(160px) scale(0.9);
+    -ms-transform: translateY(160px) scale(0.9);
+    -o-transform: translateY(160px) scale(0.9);
+    transform: translateY(160px) scale(0.9);
+    -webkit-transition: all 1.4s ease-in-out;
+    -moz-transition: all 1.4s ease-in-out;
+    -ms-transition: all 1.4s ease-in-out;
+    -o-transition: all 1.4s ease-in-out;
+    transition: all 1.4s ease-in-out;
+  }
+
+  #fresh_water_fish.visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transform: scale(1);
+  }
+
+  #flowering_plants {
+    opacity: 0;
+    -webkit-transform: translateY(170px) scale(0.9);
+    -moz-transform: translateY(170px) scale(0.9);
+    -ms-transform: translateY(170px) scale(0.9);
+    -o-transform: translateY(170px) scale(0.9);
+    transform: translateY(170px) scale(0.9);
+    -webkit-transition: all 1.2s ease-in-out;
+    -moz-transition: all 1.2s ease-in-out;
+    -ms-transition: all 1.2s ease-in-out;
+    -o-transition: all 1.2s ease-in-out;
+    transition: all 1.2s ease-in-out;
+  }
+
+  #flowering_plants.visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transform: scale(1);
+    transform: scale(1);
+  }
+
+  #population {
+    opacity: 0;
+    -webkit-transform: translateY(130px) scale(0.9);
+    -moz-transform: translateY(130px) scale(0.9);
+    -ms-transform: translateY(130px) scale(0.9);
+    -o-transform: translateY(130px) scale(0.9);
+    transform: translateY(130px) scale(0.9);
+    -webkit-transition: all 1.2s ease-in-out;
+    -moz-transition: all 1.2s ease-in-out;
+    -ms-transition: all 1.2s ease-in-out;
+    -o-transition: all 1.2s ease-in-out;
+    transition: all 1.2s ease-in-out;
+  }
+
+  #population.visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transform: scale(1);
+    transform: scale(1);
+  }
+
+  #ocean_temperature {
+    opacity: 0;
+    -webkit-transform: translateY(130px) scale(0.9);
+    -moz-transform: translateY(130px) scale(0.9);
+    -ms-transform: translateY(130px) scale(0.9);
+    -o-transform: translateY(130px) scale(0.9);
+    transform: translateY(130px) scale(0.9);
+    -webkit-transition: all 1.4s ease-in-out;
+    -moz-transition: all 1.4s ease-in-out;
+    -ms-transition: all 1.4s ease-in-out;
+    -o-transition: all 1.4s ease-in-out;
+    transition: all 1.4s ease-in-out;
+  }
+
+  #ocean_temperature.visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transform: scale(1);
+  }
+
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #BFBFBF;
+  fill: none
+}
+
+.resp-sharing-button__icon:hover{
+  fill:white;
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #BFBFBF;
+  stroke: none
+}
+
